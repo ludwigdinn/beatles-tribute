@@ -1,0 +1,82 @@
+.img figure img {
+    width: 500px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+#img-caption {
+    background-color: rgb(223, 223, 223);
+    width: 35%;
+    font-weight: 500;
+    margin: 0 auto;
+  }
+
+body {
+    color: rgb(19, 19, 19);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: url(https://i.pinimg.com/originals/c7/00/ee/c700ee364a7b76024fdd6967dca5c0f4.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+}
+
+#cronologia {
+    align-self: flex-start;
+    padding: 5;
+    margin: 0 auto;
+}
+
+li {
+    text-align: left;
+    margin: 10px 0;
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+}
+
+form {
+    color: rgb(209, 209, 209);
+    background-color: rgba(0, 0, 0, 0.795);
+    border-radius: 0.7rem;
+    border: 5px;
+    display: block;
+    width: 50%;
+    height: 100%;
+    padding: 0.37rem 0.75rem;
+    margin: 0 auto;
+}
+
+#urls {
+    justify-content: space-around;
+    display: flex;
+}
+
+#urls li {
+    margin: 10px;
+}
+
+a {
+    font-weight: 600;
+    color: rgb(97, 35, 94);
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover {
+    color: rgb(58, 78, 255);
+}
